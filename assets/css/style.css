@@ -70,6 +70,10 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+/**
+"overwrite - media query for tablets and smaller"
+applied to any screen below 768px
+**/
 @media screen and (max-width: 768px), screen and (max-width: 575px) {
   .row {
     height: auto;
